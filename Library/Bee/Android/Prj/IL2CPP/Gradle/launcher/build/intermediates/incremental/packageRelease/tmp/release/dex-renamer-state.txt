@@ -1,0 +1,4 @@
+#Fri Dec 20 10:19:59 GST 2024
+base.0=D\:\\Unity Projects\\VR Fire extinguisher pro\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

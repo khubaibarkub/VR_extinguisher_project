@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 68c4efe4c4aec2e46b2d1c0eb5f18623
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019BadgeB_Material
+    second: {fileID: 2100000, guid: 6f73132b17426e94e94d061a9594cc8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Base_Material
+    second: {fileID: 2100000, guid: 46b63e067b874fe43bfc4b3b2ba9bc76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Coloured_Material
+    second: {fileID: 2100000, guid: 6a0b4e09df8b6d840b7e42df7937a568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019EngineA_Material
+    second: {fileID: 2100000, guid: d0fded44a17da2d419169d8d57929eb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille1A_Material
+    second: {fileID: 2100000, guid: 39232af444c842f47bc59f86d00571c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille2A_Material
+    second: {fileID: 2100000, guid: 922e37ca59936a04e8adf74fb55d331e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille3A_Material
+    second: {fileID: 2100000, guid: 36c8659d9f4924e4ebc0a99740ee84b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille4A_Material
+    second: {fileID: 2100000, guid: 1a8eb4ed411d0e542959618d6511a058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille5A_Material
+    second: {fileID: 2100000, guid: 8e877de57a1b07347b2b587f224ad6ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille6A_Material
+    second: {fileID: 2100000, guid: 1e9c867ed21c878499751151f85df858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille7A_Material
+    second: {fileID: 2100000, guid: 316468a2a76bf824d8e02e5e092abbb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille8A_Material
+    second: {fileID: 2100000, guid: 0228a8d2fe305f147beffa07b0a3d769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Grille9A_Material
+    second: {fileID: 2100000, guid: 3531fc5d9bb246c4ea8926a32417ebc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019InteriorB_Material
+    second: {fileID: 2100000, guid: f078de7259a88d846bb1d3c8128f04cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019InteriorTillingA_Material
+    second: {fileID: 2100000, guid: 83a36304a9c13664f904b406960884b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019LicensePlateDefault_Material
+    second: {fileID: 2100000, guid: 190db3b710cc7774ca0e8ab97cf7d7a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019LightA_Material
+    second: {fileID: 2100000, guid: 123d60be1b655a74cabbb4c5316c28c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019LightEmissiveA_Material
+    second: {fileID: 2100000, guid: 6c7fd3ac1fdc79f478a3e10811f03f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019ManufacturerPlateA_Material
+    second: {fileID: 2100000, guid: 6ac64a75842bd0d4a8c7fc783126e653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Paint_Material
+    second: {fileID: 2100000, guid: a5b0999e1d505b144a50780debad544b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019Window_Material
+    second: {fileID: 2100000, guid: a625b333c06d222468f004bb2a6ba531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019_CallipersCalliperA_Zone_Material
+    second: {fileID: 2100000, guid: e6889daeb391b944894311d230f39bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeep_GladiatorRewardRecycled_2019_Wheel1A_3D_3DWheel1A_Material
+    second: {fileID: 2100000, guid: a9b9e703f7a6f834ea34c8ac6e032e06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ORANGE_GLASS
+    second: {fileID: 2100000, guid: ab4c40d72e74d7445867f355396ef0ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RED_GLASS
+    second: {fileID: 2100000, guid: e686603b56b18a74a9dc5e8126c9c0da, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BADGES
+    second: {fileID: 2800000, guid: 39ca20a528dff0b4ba57a333e102b3d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Global_Texture_Coloured_Diffuse
+    second: {fileID: 2800000, guid: f4aec330325732e46b392f5b0d169191, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_BadgeB_Normal
+    second: {fileID: 2800000, guid: 50e5e65ae0db407478ef99ec03c1c3a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_CalliperA_Zone_Diffuse
+    second: {fileID: 2800000, guid: b9722424c3f6ec44bb63ffe8045babbf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_EngineA_DiffuseAOSO
+    second: {fileID: 2800000, guid: 9ef043ac40941344785bd6b4798f5579, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_EngineA_Normal
+    second: {fileID: 2800000, guid: fac388d2abacbc14594cd4f1aa715420, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille1A_DiffuseAOSO
+    second: {fileID: 2800000, guid: b77a5eb1db42db6438358d3b6e6424c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille1A_Normal
+    second: {fileID: 2800000, guid: b65ef5acc27caad45afd5e7a2c8835a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille2A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 926512c286ee7624287abf1136bbd9bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille2A_Normal
+    second: {fileID: 2800000, guid: 7e4c32b817755294fb492190297e6b9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille3A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 7523c7e2c46b4b840bf381fcbdc0d768, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille3A_Normal
+    second: {fileID: 2800000, guid: 520219feda33f564da7440ac18aab02c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille4A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 53f44a2d29daca34b89a6f1bcb73cad3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille4A_Normal
+    second: {fileID: 2800000, guid: 9a15b558bf14b804d9dca1161d3bb665, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille5A_DiffuseAOSO
+    second: {fileID: 2800000, guid: eaa2a27e45938c94ebbfb55b3e5421d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille5A_Normal
+    second: {fileID: 2800000, guid: 716c00e876f5f3f47abca81addcb73dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille6A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 65e08a3a35ae61d4f92c116d0768b30e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille6A_Normal
+    second: {fileID: 2800000, guid: 380aff59f175ee54a97bba6d07ae2102, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille7A_DiffuseAOSO
+    second: {fileID: 2800000, guid: a3cac209f016abb4ea7749adf4557ec9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille7A_Normal
+    second: {fileID: 2800000, guid: 1da9aaaee5d39d349bf85524220ce5fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille8A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 4ef860ed541cc3540afcb150ba69f5ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille8A_Normal
+    second: {fileID: 2800000, guid: 7a3f896190e4ca248b2a36274414c44f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille9A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 8cc6293071d8eb34591693fe3eaa45bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Grille9A_Normal
+    second: {fileID: 2800000, guid: 516ed0b5c0597c5489034b2f6c685906, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_InteriorB_DiffuseAOSO
+    second: {fileID: 2800000, guid: f3d990cb677f236439ac0de1424fe691, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_InteriorB_Normal
+    second: {fileID: 2800000, guid: ca3b6484d91d22d45adbc98fa46aee96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_InteriorTillingA_DiffuseAOSO
+    second: {fileID: 2800000, guid: a99f008e2c32b094bb72bad6ad69de6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_InteriorTillingA_Normal
+    second: {fileID: 2800000, guid: 1af9d2975ad795e4ebafe0c31705a014, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_LightA_Diffuse
+    second: {fileID: 2800000, guid: 976e1d1bda925d146be17ab16db97e86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_ManufacturerPlateA_Diffuse
+    second: {fileID: 2800000, guid: 11d35bc7e2ad6954d9c14c246a2a50ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Wheel1A_DiffuseAOSO
+    second: {fileID: 2800000, guid: 2aef47cd89554ec44be5a294c8702b57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jeep_Gladiator_2019_Wheel1A_Normal
+    second: {fileID: 2800000, guid: 287052d60ba3e42488d488c7f62c22f3, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

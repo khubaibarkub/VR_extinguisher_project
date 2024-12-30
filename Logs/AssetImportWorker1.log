@@ -1,0 +1,926 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Engines\Unity Editors\unity 2021.3.20f1\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity Projects/VR Fire extinguisher pro
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61701
+Successfully changed project path to: D:/Unity Projects/VR Fire extinguisher pro
+D:/Unity Projects/VR Fire extinguisher pro
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27276] Host "[IP] 10.12.150.136 [Port] 0 [Flags] 2 [Guid] 2802664928 [EditorId] 2802664928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AL09RDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27276] Host "[IP] 10.12.150.136 [Port] 0 [Flags] 2 [Guid] 2802664928 [EditorId] 2802664928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AL09RDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 321.60 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.70 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/VR Fire extinguisher pro/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:   NVIDIA
+    VRAM:     8074 MB
+    Driver:   31.0.15.3141
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Initialize mono
+Mono path[0] = 'D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007077 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport\x64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. Process paths: 
+C:\Users\Arkub\AppData\Roaming\SideQuest\platform-tools\adb.exe
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+Android Extension - Scanning For ADB Devices 2606 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 197.21 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3743ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (3458ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (3146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2723ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (197ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport\x64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 177.59 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1974ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1643ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (883ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (178ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (480.6 KB). Loaded Objects now: 4998.
+Memory consumption went from 250.4 MB to 249.9 MB.
+Total: 5.908800 ms (FindLiveObjects: 0.547600 ms CreateObjectMapping: 0.544300 ms MarkObjects: 4.412000 ms  DeleteObjects: 0.403700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 339670.143793 seconds.
+  path: Assets/Object And Texture/demountable-ceiling-tile-stack-60ecba3934ac5-1200.jpg
+  artifactKey: Guid(ecd852cc83a0cff41a998134d5fb14dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object And Texture/demountable-ceiling-tile-stack-60ecba3934ac5-1200.jpg using Guid(ecd852cc83a0cff41a998134d5fb14dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3650090817a831d21f4714cfa37b170') in 0.177496 seconds 
+========================================================================
+Received Prepare
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 8.56 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (445.2 KB). Loaded Objects now: 5001.
+Memory consumption went from 152.4 MB to 152.0 MB.
+Total: 4.278500 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.333100 ms MarkObjects: 3.368300 ms  DeleteObjects: 0.190500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010230 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport\x64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1831ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1463ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (558ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 6.12 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (448.1 KB). Loaded Objects now: 5005.
+Memory consumption went from 241.1 MB to 240.7 MB.
+Total: 4.414200 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.366200 ms MarkObjects: 3.441000 ms  DeleteObjects: 0.221100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 14.95 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (445.3 KB). Loaded Objects now: 5005.
+Memory consumption went from 153.1 MB to 152.6 MB.
+Total: 4.990800 ms (FindLiveObjects: 0.482300 ms CreateObjectMapping: 0.381800 ms MarkObjects: 3.827500 ms  DeleteObjects: 0.297600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.17 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (445.2 KB). Loaded Objects now: 5005.
+Memory consumption went from 152.7 MB to 152.3 MB.
+Total: 5.161400 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.305000 ms MarkObjects: 4.265300 ms  DeleteObjects: 0.214800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.10 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (445.3 KB). Loaded Objects now: 5005.
+Memory consumption went from 152.7 MB to 152.3 MB.
+Total: 4.734600 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.382100 ms MarkObjects: 3.713400 ms  DeleteObjects: 0.214900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 10.36 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (445.2 KB). Loaded Objects now: 5005.
+Memory consumption went from 152.7 MB to 152.3 MB.
+Total: 5.756100 ms (FindLiveObjects: 0.424600 ms CreateObjectMapping: 0.343100 ms MarkObjects: 4.708400 ms  DeleteObjects: 0.279000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 8.96 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (445.1 KB). Loaded Objects now: 5005.
+Memory consumption went from 152.8 MB to 152.3 MB.
+Total: 5.155300 ms (FindLiveObjects: 0.372400 ms CreateObjectMapping: 0.311700 ms MarkObjects: 4.247600 ms  DeleteObjects: 0.222700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5871.112546 seconds.
+  path: Assets/external assets/Resources/lambert1.mat
+  artifactKey: Guid(c7f6f58eedb09be4ea482829761c98ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/lambert1.mat using Guid(c7f6f58eedb09be4ea482829761c98ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa9a77f0fe6770d6e1256bc1b03aa61') in 3.727147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/external assets/Resources/WaterFireExtinguisher.fbx
+  artifactKey: Guid(3642a40777ee2463a8e6d779bcebf552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/WaterFireExtinguisher.fbx using Guid(3642a40777ee2463a8e6d779bcebf552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be5244526907684321f1592b2336414') in 0.934277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/external assets/Resources/PowderFireExtinguisher.dae
+  artifactKey: Guid(951e6d548764b4d32ad9c0bff9ee201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/PowderFireExtinguisher.dae using Guid(951e6d548764b4d32ad9c0bff9ee201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbeaed09c467fa2a063fd3068e906d5') in 0.141135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.635288 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/BADGES.png
+  artifactKey: Guid(d32427d5711d02645b81ee910af686c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/BADGES.png using Guid(d32427d5711d02645b81ee910af686c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856e5990e289a54b57525847b455b9bb') in 0.069900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Wheel1A_DiffuseAOSO.png
+  artifactKey: Guid(59134e0c05423d3448e7ceeaca44596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Wheel1A_DiffuseAOSO.png using Guid(59134e0c05423d3448e7ceeaca44596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf6d41cd59dbc16848e7c120b70b354') in 0.023408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille4A_DiffuseAOSO.png
+  artifactKey: Guid(0f888846d3016e541ad5e7189f0c06cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille4A_DiffuseAOSO.png using Guid(0f888846d3016e541ad5e7189f0c06cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6322756616768f408bb402b3492a6a') in 0.019296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille1A_Normal.png
+  artifactKey: Guid(7a6fe9fe26de5bd459286b4d2d3d0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille1A_Normal.png using Guid(7a6fe9fe26de5bd459286b4d2d3d0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7bb30ae5d004de748453ea761baebb') in 0.047768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/mask.png
+  artifactKey: Guid(6b9354504aebdef45bacb94e9ba39f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/mask.png using Guid(6b9354504aebdef45bacb94e9ba39f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5485302e23475e547e51bdd2c46a1d22') in 0.021248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille6A_DiffuseAOSO.png
+  artifactKey: Guid(7e029e130122e124d9fe6a09dfa049fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille6A_DiffuseAOSO.png using Guid(7e029e130122e124d9fe6a09dfa049fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7719205a73fb1b6d790c3fd4138e633') in 0.014645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille7A_Normal.png
+  artifactKey: Guid(2591fb375d1cd2b49a8b78a49a84d24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille7A_Normal.png using Guid(2591fb375d1cd2b49a8b78a49a84d24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959ce75ae6f4e7101e09c260558be45d') in 0.017267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_CalliperA_Zone_Diffuse.png
+  artifactKey: Guid(3adb4bc7bc94e6f4189d4a25e13d8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_CalliperA_Zone_Diffuse.png using Guid(3adb4bc7bc94e6f4189d4a25e13d8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f076701bbab3f0fbc5e138f119a354') in 0.019794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille1A_MaterialOpacity.png
+  artifactKey: Guid(1dc2f9f6fce57b543b2d8ff4c655305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille1A_MaterialOpacity.png using Guid(1dc2f9f6fce57b543b2d8ff4c655305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f0016ac29d63e91044bb78e5401af2') in 0.020115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_BadgeB_MaterialOpacity.png
+  artifactKey: Guid(d9c45fe3cf31a4b4ca26f49a3f638415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_BadgeB_MaterialOpacity.png using Guid(d9c45fe3cf31a4b4ca26f49a3f638415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d1c7c1f6c0891f0f1e3b66d10b903d') in 0.016403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille6A_MaterialOpacity.png
+  artifactKey: Guid(651253ce722c0624ca3a59b6bb0891c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille6A_MaterialOpacity.png using Guid(651253ce722c0624ca3a59b6bb0891c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd3286afa8f506ea21a1b5ad3857c8') in 0.016279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_ManufacturerPlateA_Diffuse.png
+  artifactKey: Guid(6d9d98976af447240bef7380f00f7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_ManufacturerPlateA_Diffuse.png using Guid(6d9d98976af447240bef7380f00f7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26aa0c70bdf711e950ae719ab154d4d') in 0.018151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille4A_Normal.png
+  artifactKey: Guid(9f29c4fedab94e148b978a1ed48015c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille4A_Normal.png using Guid(9f29c4fedab94e148b978a1ed48015c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff1cf2fec89c54e4498d1f94b47c7e4') in 0.017991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille3A_DiffuseAOSO.png
+  artifactKey: Guid(40701203ad2aa1e449ba09fc3ad41a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille3A_DiffuseAOSO.png using Guid(40701203ad2aa1e449ba09fc3ad41a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce52abc4e81a2ddd703d6256e93de6f') in 0.017565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorTillingA_DiffuseAOSO.png
+  artifactKey: Guid(f9d4c55260252924ea655820612bb725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorTillingA_DiffuseAOSO.png using Guid(f9d4c55260252924ea655820612bb725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32505888fcd1f31eea4da8b64db03a4') in 0.019112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/common_carbon05_norm.png
+  artifactKey: Guid(77735e0c4cdf337419b8d2617d4a54f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/common_carbon05_norm.png using Guid(77735e0c4cdf337419b8d2617d4a54f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb15283d5704201445f6679ea7d4526') in 0.021818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille9A_Material.png
+  artifactKey: Guid(600415a68907221488968e706dff95ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille9A_Material.png using Guid(600415a68907221488968e706dff95ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de652a1db0d016a7e31c6b1c2362f02') in 0.016707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_CalliperA_Zone_Material.png
+  artifactKey: Guid(11145e350e4b17346a591b91a00f4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_CalliperA_Zone_Material.png using Guid(11145e350e4b17346a591b91a00f4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1572915be1c2597cb1959db7a40a6b1d') in 0.017357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorB_DiffuseAOSO.png
+  artifactKey: Guid(9a9e5cb0eae9fea4496455bfd37755de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorB_DiffuseAOSO.png using Guid(9a9e5cb0eae9fea4496455bfd37755de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86efe371657587ebe9c6dcad07eb048') in 0.021989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_EngineA_MaterialOpacity.png
+  artifactKey: Guid(07254f5a1af8b704583c1d5a57c002fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_EngineA_MaterialOpacity.png using Guid(07254f5a1af8b704583c1d5a57c002fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b695ce5dbf7a852809e991444b47ef8') in 0.018382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille4A_Material.png
+  artifactKey: Guid(8aaf789ef3a6e53429ea7eb6579f1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille4A_Material.png using Guid(8aaf789ef3a6e53429ea7eb6579f1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e021e0bcf13ccff86ac73f7872e023') in 0.018894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorTillingA_Normal.png
+  artifactKey: Guid(ce2854da205638947a4fdf825c98cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorTillingA_Normal.png using Guid(ce2854da205638947a4fdf825c98cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2694f5cef3d90e8ac14dc47c62f397f') in 0.017517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille8A_Normal.png
+  artifactKey: Guid(d5ea5390a4a0e364cabba4e0081414cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille8A_Normal.png using Guid(d5ea5390a4a0e364cabba4e0081414cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7af3e7f22803d1c5ef5af4081ad1224') in 0.020895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Global_Texture_Coloured_Diffuse.png
+  artifactKey: Guid(0167a7f9290cd7945af8b95abd7fd237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Global_Texture_Coloured_Diffuse.png using Guid(0167a7f9290cd7945af8b95abd7fd237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36939e87d475acf6485d87ffef90c00') in 0.020071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille2A_Normal.png
+  artifactKey: Guid(13f82cc36e9b96041a66317ff710502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille2A_Normal.png using Guid(13f82cc36e9b96041a66317ff710502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb78679ef6248d478bc6e4b0ecb77d6b') in 0.012518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_BadgeB_DiffuseAOSO.png
+  artifactKey: Guid(e15c9c498af86f34382ba502f3fff5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_BadgeB_DiffuseAOSO.png using Guid(e15c9c498af86f34382ba502f3fff5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ff8c3893d887063a2d5fb26ed2c4e8') in 0.016488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille5A_Normal.png
+  artifactKey: Guid(cb55be3dc9825e44780bec833a087c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille5A_Normal.png using Guid(cb55be3dc9825e44780bec833a087c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322ec73558d851634cc444180454ed06') in 0.013552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille9A_DiffuseAOSO.png
+  artifactKey: Guid(3efc05018ba554e41b71235c331674f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille9A_DiffuseAOSO.png using Guid(3efc05018ba554e41b71235c331674f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97225c3eecf5bbb23d0a2f31d97c59f6') in 0.014390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Wheel1A_Normal.png
+  artifactKey: Guid(c213f2d0836028844b3e059bf94a93eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Wheel1A_Normal.png using Guid(c213f2d0836028844b3e059bf94a93eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffb822990462bb99dab037f70f33c07') in 0.014990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille8A_DiffuseAOSO.png
+  artifactKey: Guid(0c0956cb28d964c4dacfd56e9a5853f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille8A_DiffuseAOSO.png using Guid(0c0956cb28d964c4dacfd56e9a5853f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af6d2ebef31721abf2fe5cd3655acbd') in 0.012679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorB_MaterialOpacity.png
+  artifactKey: Guid(82ff58f3f56e50f4ba55a4b39eade8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorB_MaterialOpacity.png using Guid(82ff58f3f56e50f4ba55a4b39eade8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fe19db2bd6898e516d3f4e34c6cf26') in 0.014207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille1A_DiffuseAOSO.png
+  artifactKey: Guid(dbd1ba86ac5b5134593e1c7a0c1f9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Grille1A_DiffuseAOSO.png using Guid(dbd1ba86ac5b5134593e1c7a0c1f9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f03c5f68d63758add23e99610e95507') in 0.016902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorTillingA_Material.png
+  artifactKey: Guid(8eb3de70c25b1f94c95349947b870d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorTillingA_Material.png using Guid(8eb3de70c25b1f94c95349947b870d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d170c742bae9671bc2e135851791eb') in 0.013791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_LightA_Emissive.png
+  artifactKey: Guid(bdd7126639eaf3941b32d3b613fedd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_LightA_Emissive.png using Guid(bdd7126639eaf3941b32d3b613fedd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ff45cba486a6174806a1dd07f078f') in 0.019733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Wheel1A_Material.png
+  artifactKey: Guid(cca68ab20dbeb6b4c8523cfe2f24db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_Wheel1A_Material.png using Guid(cca68ab20dbeb6b4c8523cfe2f24db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a336ee1d2530b9fc553d6ddf362958') in 0.014791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorB_Normal.png
+  artifactKey: Guid(9e0ea34e5a3ba0141b7fb4da4bbff3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/Jeep_Gladiator_2019_InteriorB_Normal.png using Guid(9e0ea34e5a3ba0141b7fb4da4bbff3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3a97b2a1c06252be2a35bf90fb4540') in 0.015303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.907333 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/FINAL_MODEL.fbx
+  artifactKey: Guid(68c4efe4c4aec2e46b2d1c0eb5f18623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/FINAL_MODEL.fbx using Guid(68c4efe4c4aec2e46b2d1c0eb5f18623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf64ae04cd1caaaff669bddd5922fa9') in 5.556707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.845720 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019_Wheel1A_3D_3DWheel1A_Material.mat
+  artifactKey: Guid(a9b9e703f7a6f834ea34c8ac6e032e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019_Wheel1A_3D_3DWheel1A_Material.mat using Guid(a9b9e703f7a6f834ea34c8ac6e032e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76754f14d6d224bb612971b270f9db76') in 0.031549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Paint_Material.mat
+  artifactKey: Guid(a5b0999e1d505b144a50780debad544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Paint_Material.mat using Guid(a5b0999e1d505b144a50780debad544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b482c3b35dc4d76fd1f212b56bfdca') in 0.019158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille9A_Material.mat
+  artifactKey: Guid(3531fc5d9bb246c4ea8926a32417ebc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille9A_Material.mat using Guid(3531fc5d9bb246c4ea8926a32417ebc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7876f8febbb0c55da8c41f4b953e479') in 0.021842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Base_Material.mat
+  artifactKey: Guid(46b63e067b874fe43bfc4b3b2ba9bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Base_Material.mat using Guid(46b63e067b874fe43bfc4b3b2ba9bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4d7d6f94fe472268e85c7064a03573') in 0.017293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightEmissiveA_Material.mat
+  artifactKey: Guid(6c7fd3ac1fdc79f478a3e10811f03f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightEmissiveA_Material.mat using Guid(6c7fd3ac1fdc79f478a3e10811f03f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bac0560993488e8d35245e3ba360f7') in 0.019171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/RED_GLASS.mat
+  artifactKey: Guid(e686603b56b18a74a9dc5e8126c9c0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/RED_GLASS.mat using Guid(e686603b56b18a74a9dc5e8126c9c0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ff2072e51b851969c127cbec7ac192') in 0.018083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille3A_Material.mat
+  artifactKey: Guid(36c8659d9f4924e4ebc0a99740ee84b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille3A_Material.mat using Guid(36c8659d9f4924e4ebc0a99740ee84b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebae08e28dbd86fc0b7ab08ca0c5a7f4') in 0.028874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightA_Material.mat
+  artifactKey: Guid(123d60be1b655a74cabbb4c5316c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightA_Material.mat using Guid(123d60be1b655a74cabbb4c5316c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aebbb4ba43e1336e0187ece39f69a9') in 0.021197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille7A_Material.mat
+  artifactKey: Guid(316468a2a76bf824d8e02e5e092abbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille7A_Material.mat using Guid(316468a2a76bf824d8e02e5e092abbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e02b51561c702e1f734116c668c464b') in 0.021216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Coloured_Material.mat
+  artifactKey: Guid(6a0b4e09df8b6d840b7e42df7937a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Coloured_Material.mat using Guid(6a0b4e09df8b6d840b7e42df7937a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346740563be2f7d68708a765119b753c') in 0.017489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille8A_Material.mat
+  artifactKey: Guid(0228a8d2fe305f147beffa07b0a3d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille8A_Material.mat using Guid(0228a8d2fe305f147beffa07b0a3d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3ab8f46fe7f73cf3e36d159acbf4cc') in 0.019551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille4A_Material.mat
+  artifactKey: Guid(1a8eb4ed411d0e542959618d6511a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille4A_Material.mat using Guid(1a8eb4ed411d0e542959618d6511a058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5b5b36429cd1f4fde8bd459ff33547') in 0.019274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille1A_Material.mat
+  artifactKey: Guid(39232af444c842f47bc59f86d00571c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille1A_Material.mat using Guid(39232af444c842f47bc59f86d00571c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e7335901ca76b8c8b6c00431173fbd') in 0.016746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.835579 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019_Wheel1A_3D_3DWheel1A_Material.mat
+  artifactKey: Guid(a9b9e703f7a6f834ea34c8ac6e032e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019_Wheel1A_3D_3DWheel1A_Material.mat using Guid(a9b9e703f7a6f834ea34c8ac6e032e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436eb725a8736900a823417b5bbf22c5') in 0.030638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille9A_Material.mat
+  artifactKey: Guid(3531fc5d9bb246c4ea8926a32417ebc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille9A_Material.mat using Guid(3531fc5d9bb246c4ea8926a32417ebc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2eb07c73adabbced4ae4d38405f317') in 0.020687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Base_Material.mat
+  artifactKey: Guid(46b63e067b874fe43bfc4b3b2ba9bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Base_Material.mat using Guid(46b63e067b874fe43bfc4b3b2ba9bc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469ed3e4573f02c9ef6b7e1d794b21a2') in 0.020744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightEmissiveA_Material.mat
+  artifactKey: Guid(6c7fd3ac1fdc79f478a3e10811f03f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightEmissiveA_Material.mat using Guid(6c7fd3ac1fdc79f478a3e10811f03f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d4f1200ea3c9d7d79628d1629c2e26') in 0.020089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019EngineA_Material.mat
+  artifactKey: Guid(d0fded44a17da2d419169d8d57929eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019EngineA_Material.mat using Guid(d0fded44a17da2d419169d8d57929eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6f982dcaec43a69ba971e7df328bf9') in 0.026190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille3A_Material.mat
+  artifactKey: Guid(36c8659d9f4924e4ebc0a99740ee84b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille3A_Material.mat using Guid(36c8659d9f4924e4ebc0a99740ee84b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b67219d5c02a0a89146b0af020d725') in 0.020134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightA_Material.mat
+  artifactKey: Guid(123d60be1b655a74cabbb4c5316c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019LightA_Material.mat using Guid(123d60be1b655a74cabbb4c5316c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3df84d7c5d60508646c5e51ea109a3') in 0.019636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille7A_Material.mat
+  artifactKey: Guid(316468a2a76bf824d8e02e5e092abbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille7A_Material.mat using Guid(316468a2a76bf824d8e02e5e092abbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20c8bdb71191af4b4a3892427df045a') in 0.016769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Coloured_Material.mat
+  artifactKey: Guid(6a0b4e09df8b6d840b7e42df7937a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Coloured_Material.mat using Guid(6a0b4e09df8b6d840b7e42df7937a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c1b9216f77c9e9ba5d52e72418525f') in 0.015343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille2A_Material.mat
+  artifactKey: Guid(922e37ca59936a04e8adf74fb55d331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Grille2A_Material.mat using Guid(922e37ca59936a04e8adf74fb55d331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98379cd174ce918b84b8f01f5636efe') in 0.017879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Window_Material.mat
+  artifactKey: Guid(a625b333c06d222468f004bb2a6ba531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019Window_Material.mat using Guid(a625b333c06d222468f004bb2a6ba531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8520402b6501d3cd1b2bcdfb40133df4') in 0.016234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019InteriorTillingA_Material.mat
+  artifactKey: Guid(83a36304a9c13664f904b406960884b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/Jeep_GladiatorRewardRecycled_2019InteriorTillingA_Material.mat using Guid(83a36304a9c13664f904b406960884b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f1363a1d335c0e4e6c7d76e6b3b38f') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/external assets/Resources/FINAL_MODEL/car_material/ORANGE_GLASS.mat
+  artifactKey: Guid(ab4c40d72e74d7445867f355396ef0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/FINAL_MODEL/car_material/ORANGE_GLASS.mat using Guid(ab4c40d72e74d7445867f355396ef0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8900c297f8eca0371b6038353885f9') in 0.016188 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010488 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: D:/Unity Engines/Unity Editors/unity 2021.3.20f1/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport\x64\UnityEditor.iOS.Native.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Unity Projects\VR Fire extinguisher pro\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2522ms)
+		BeginReloadAssembly (630ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (318ms)
+		EndReloadAssembly (1731ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (595ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (743ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 6.51 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (448.1 KB). Loaded Objects now: 5057.
+Memory consumption went from 247.8 MB to 247.4 MB.
+Total: 16.334300 ms (FindLiveObjects: 0.556200 ms CreateObjectMapping: 0.427600 ms MarkObjects: 14.874100 ms  DeleteObjects: 0.475100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3054.994654 seconds.
+  path: Assets/external assets/Resources/Materials/29509-ai.mat
+  artifactKey: Guid(a8c5bb2eb9d264cea97acbccfc8d0ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/external assets/Resources/Materials/29509-ai.mat using Guid(a8c5bb2eb9d264cea97acbccfc8d0ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226c90858da01ad50f4168dbeb9e82f5') in 0.287345 seconds 

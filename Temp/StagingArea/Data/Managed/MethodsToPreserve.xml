@@ -1,0 +1,25 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="collider_extinguisher">
+			<method name="turn_on_exting"/>
+		</type>
+		<type fullname="Fire_controller">
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_clicked"/>
+			<method name="alaram_scrn_btn_No_clicked"/>
+			<method name="escape_plane_btn_clicked"/>
+			<method name="escape_plane_btn_clicked"/>
+			<method name="escape_plane_btn_NO_clicked"/>
+			<method name="extinguisher_btn_selected"/>
+			<method name="floor_plan_gets_bigger"/>
+			<method name="Player_fire_room_point"/>
+			<method name="Player_fire_room_point"/>
+		</type>
+	</assembly>
+</linker>
